@@ -1,0 +1,59 @@
+#root {
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	height: 100%;
+	display: flex;
+	/* para centrar horizontal */
+	justify-content: center;
+	/* centrar vertical */
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	/* border: 3px solid red; */
+	display: flex;
+	flex-direction: column;
+	gap: 0.25em;
+	padding: 2em 0;
+}
+
+.heading {
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+	text-shadow: 5px 5px 0 #a8a8b4;
+}
+
+.card {
+	width: 100%;
+	aspect-ratio: 16 /9;
+	background-image: url('./assets/rectangle.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.card__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* aqui vemos si le dejamos con max width or just widh */
+	max-width: 650px;
+	height: 100%;
+	padding: 0 2em;
+}
+
+.btn {
+	width: fit-content;
+	/* centrar el boton */
+	margin: 0 auto;
+	backdrop-filter: brightness(1.5) blur(5px);
+	transition: background-color 0.2s ease;
+	background-color: rgb(255, 176, 29);
+}

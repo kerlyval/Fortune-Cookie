@@ -1,0 +1,11 @@
+export { default as bg20 } from './bg20.png';
+export { default as bg18 } from './bg18.jpg';
+export { default as bg22 } from './bg22.jpeg';
+// export { default as bg23 } from './bg23.jpeg';
+export { default as bg24 } from './bg24.jpeg';
+// export { default as bg25 } from './bg25.jpeg';
+export { default as bg26 } from './bg26.jpeg';
+export { default as bg27 } from './bg27.jpeg';
+export { default as bg31 } from './bg31.jpeg';
+export { default as bg33 } from './bg33.jpeg';
+export { default as bg34 } from './bg34.jpeg';
